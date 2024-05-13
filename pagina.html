@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>formulario</title>
+  <link rel="stylesheet" type="text/css" href="decorado.css"/>
+</head>
+
+<body>
+
+    <form action="gracias.html" method="get">
+	 <center><span class="titulo"><font size="25"> TU OPINION NOS IMPORTA </font><br>
+	 <font size="15"> SOLICITUD DE INFORMACION </span></font></center><br><br><br>
+		<span class="cosas">Nombre: <input type="text" name="Nombre"> <br><br>
+		Apellidos: <input type="text" name="Apellidos"><br><br>
+		Correo electronico: <input type="text" name="Correo electronico"><br><br>
+		Ciudad: </span><input type="text" name="Ciudad"><br><br>
+
+
+<form>
+<table>
+    <tr>  
+     <th><span id="tablacolor">Edad <br></span>
+      
+<span class="tabla1"><input type="radio" name="edad" value="0-20">0-20 <br>
+  <input type="radio" name="edad" value="20-40">20-40 <br>
+     <input type="radio" name="edad" value="40-60">40-60 <br>
+     <input type="radio" name="edad" value="60-100">60-100</span>
+ 
+ 
+</th> 
+     
+  <th><span id="tablacolor2">¿Como nos conociste? <br></span>
+    <span class="tabla2"><input type="checkbox" name="conocer" value="a">A traves de un amigo<br>
+    <input type="checkbox" name="conocer" value="a">A traves de un buscador<br>
+    <input type="checkbox" name="conocer" value="a">Navegando por la red<br>
+    <input type="checkbox" name="conocer" value="a">Otros
+</span>
+</th>
+
+</tr>
+</table>
+<br><br>
+<form action="/action_page.php">
+  <label for="TIEMPO"><span id="subtitulo">¿Cuanto navegas por Internet? (Señala la opcion que mas se acerque)</span></label><br><br>
+  <select name="TIEMPO" id="TIEMPO" multiple>
+    <option value="2hr">2 horas al dia</option>
+    <option value="4hr">4 horas al dia</option>
+    <option value="10hr">10 horas a la semana</option>
+    <option value="20hr">20 horas al mes</option>
+  </select>
+
+
+  <p><label for="pagina1"><span id="sutitulo">Opine sobre nuestra pagina web</span></label></p>
+  <textarea id="pagina1" name="pagina1" rows="4" cols="50"></textarea><br><br>
+
+
+<form>
+  <button type="submit" value="Subir formulario">Subir formulario</button>
+  <button type="reset" value="Borrar formulario">Borrar formulario</button>
+
+
+</form>
+
+
+</body>
+
+
+</html>
